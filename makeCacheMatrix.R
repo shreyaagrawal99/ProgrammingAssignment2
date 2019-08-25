@@ -1,3 +1,6 @@
+
+
+#Caches the matrix
 makeCacheMatrix <- function(x=matrix()) {
   
   inver <- NULL
@@ -22,7 +25,7 @@ makeCacheMatrix <- function(x=matrix()) {
 }
   
 
-
+#Checks if the inverse is in the cache and solves it if not
 cacheSolve <- function(x, ... ) {
   
   inver <- x$getinverse()
